@@ -37,3 +37,9 @@ You can create new page models in `mm_product/models.py`
 
 Remember to create new migration files `python manage.py makemigrations` and run
 them `python manage.py migrate`.
+
+## Docker
+
+A docker image can be created based on mm_core.
+Make sure you've built the mm_core docker image with tag=mm-core:latest if you want to
+build the mm-product docker image.
